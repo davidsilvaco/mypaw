@@ -47,4 +47,8 @@ git push -u origin main
 
 
 git pull
+git remote add origin git@github.com:davidsilvaco/mypaw.git
+git branch -M main
+git commit -m 'Plantilla Base Mypaw'
+ git push -u origin main
 
