@@ -1,0 +1,31 @@
+npm init
+--dependencia de produccion
+npm i express
+--dependencia de desarrollo si se necesita
+npm i -D express
+
+--Arrancar codigo
+npm start
+
+--Dependencia d edesarrollo
+npm i -D nodemon
+
+npm run server
+
+npm i pug
+
+npm i -D tailwindcss autoprefixer postcss postcss-cli
+
+npx tailwindcss init -p
+
+--complitar tailwindcss
+npm run css
+
+--instalar orm
+npm i sequelizer mysql2
+
+--para variables de entorno
+npm i dotenv
+
+---para validaciones de usuario
+npm i express-validator
