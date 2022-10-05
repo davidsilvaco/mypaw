@@ -29,3 +29,22 @@ npm i dotenv
 
 ---para validaciones de usuario
 npm i express-validator
+
+
+----Para Git
+ssh-keygen -t rsa -b 4096 -C "davidscsebas@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add id_rsa
+cat id_rsa.pub | clipcd
+
+git branch <nombre-de-la-rama>
+git push <nombre-remoto> <nombre-rama>
+git checkout <nombre-de-la-rama>
+
+git add .
+git commit -m "mensaje de confirmación"
+git push -u origin main
+
+
+git pull
+
