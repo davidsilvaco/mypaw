@@ -52,3 +52,21 @@ git branch -M main
 git commit -m 'Plantilla Base Mypaw'
  git push -u origin main
 
+--crear rama dos alternativas
+    - git branch experimental
+    - git checkout -b otrarama
+git show-branch
+git checkout experimental
+ git checkout dev
+ --subir rama
+git push -u origin experimental
+
+git branch -d rama_a_borrar
+git push origin --delete rama_a_borra_remoto
+
+--El proceso para obtener una rama del repositorio remoto es bien sencillo. Lo conseguimos con el comando fetch.
+
+git fetch
+
+--Lanzado ese comando hemos podido descargar la rama git de remoto. Ahora podemos acceder a ella con los comandos que ya conoces.
+git checkout mi_rama_remota_descargada
